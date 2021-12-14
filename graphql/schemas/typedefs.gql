@@ -1,0 +1,7 @@
+# import Customer from "schema.customer.gql"
+
+type Query {
+  cloudProfile: [Customer]
+  findCustomer(id: Int!): Customer
+  customersCount: Int!
+}

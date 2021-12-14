@@ -1,0 +1,7 @@
+type Customer {
+  clientId: Int!
+  sex: String
+  firstName: Int
+  lastName: String!
+  age: Int!
+}
